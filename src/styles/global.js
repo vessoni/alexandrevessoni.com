@@ -30,5 +30,5 @@ export default createGlobalStyle`
   a:hover { text-decoration: none; color:#FFF; }
   a:focus { text-decoration: none; color:#FFF; }
   a:hover, a:active { text-decoration: none; color:#FFF }
-
+  a { color: inherit; }
 `;
