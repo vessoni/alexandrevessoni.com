@@ -11,13 +11,19 @@ function Main() {
         <h2>Web Developer</h2>
         <Icons>
           <p>
-            <FaGithub size="3em" />
+            <a href="https://github.com/vessoni">
+              <FaGithub size="2.5em" />
+            </a>
           </p>
           <p>
-            <FaLinkedin size="3em" />
+            <a href="https://www.linkedin.com/in/alexandrevessoni/">
+              <FaLinkedin size="2.5em" />
+            </a>
           </p>
           <p>
-            <FaFacebookSquare size="3em" />
+            <a href="https://www.facebook.com/AlexandreVessoni">
+              <FaFacebookSquare size="2.5em" />
+            </a>
           </p>
         </Icons>
       </Item>

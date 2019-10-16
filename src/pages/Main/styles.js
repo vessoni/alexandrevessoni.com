@@ -31,9 +31,12 @@ export const Icons = styled.div`
 
   p {
     margin: 5px;
-
     svg {
-      text-shadow: 10px 10px #f00000;
+      -webkit-filter: drop-shadow(3px 2px 3px rgba(0, 0, 0, 1)) !important;
+
+      :hover {
+        -webkit-filter: drop-shadow(3px 2px 10px rgba(0, 0, 0, 1)) !important;
+      }
     }
   }
 `;

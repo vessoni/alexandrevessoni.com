@@ -24,4 +24,10 @@ export default createGlobalStyle`
   button{
     cursor: pointer;
   }
+
+  a:visited { text-decoration: none; color:#FFF; }
+  a:hover { text-decoration: none; color:#FFF; }
+  a:focus { text-decoration: none; color:#FFF; }
+  a:hover, a:active { text-decoration: none; color:#FFF }
+
 `;
