@@ -38,7 +38,6 @@ function Main() {
         src="/docs/music.mp3"
         autoPlay='true'
         controls
-        style={{ visibility: 'hidden'}}
       />
       </>
   );
